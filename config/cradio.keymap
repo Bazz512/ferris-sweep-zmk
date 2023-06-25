@@ -72,17 +72,17 @@
 
         windows_layer {
             bindings = <
-        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
-            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
+         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+        //│  Q       │  W       │  F       │  P       │  B       │   │  J       │  L       │  U       │  Y       │  :       │
+            &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J      &kp L      &kp L      &kp Y      &kp :
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │BACKSPACE │
-            &kp A    WHRML(S,         D,         F)     &kp G          &kp H      WHRMR(J,        K,         L)   &kp BSPC
+        //│  A       │  R       │  S       │  T       │  G       │   │  M       │  N       │  E       │  I       │  O       │
+            &kp A     HRML(R,         S,         T)     &kp G          &kp M      HRMR(N,        E,           I)   &kp O 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ENTER    │
-            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp ENTER
+        //│  Z       │  X       │  C       │  D       │  V       │   │  K       │  H       │ BACKSPAC │ . >      │ ENTER    │
+            &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp H      &kp BSPC   &kp DOT    &kp ENTER
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                           &lt LEF TAB  &kp LSHIFT    &kp SPACE  &lt RIG TAB
+                                           &lt LEF TAB  &kp SPACE    &kp LSHIFT  &lt RIG TAB
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
